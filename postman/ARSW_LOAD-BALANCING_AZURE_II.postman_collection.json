@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "329a103a-2a0a-4e74-9f38-383aa0e9e960",
+		"name": "ARSW_LOAD-BALANCING_AZURE_II",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "fibonacci",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nth\": 100000}"
+				},
+				"url": "https://functionprojectfibonaccilab10.azurewebsites.net/api/Fibonacci"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
